@@ -1,0 +1,440 @@
+
+
+html,body{
+    margin: 0;
+    font-family: 'Helvetica';
+    background-image: url('images/logo2.jpg');
+}
+
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    background-color: darkslategray;
+    align-items: center;
+    height: 80px;
+}
+
+#logo{
+    margin-left: 30px;
+}
+
+
+#logo img{
+    height: 55px;
+}
+
+#hamburger{
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+
+#hamburger img{
+    height: 75px;
+}
+
+#desktop_nav{
+    display: none;
+}
+
+#navigation{
+    margin: 0;
+
+
+    display: none;
+    position: absolute;
+    top: 80px;
+
+    background-color: darkslategrey;
+    width: 100%;
+    font-size: large;
+}
+
+.expand{
+    display: block;
+}
+
+#navigation ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul li{
+    padding: 10px 50px 10px 50px;
+    list-style: none;
+    color: black;
+}
+
+#navigation ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#navigation ul li:hover{
+    background-color: gray;
+}
+
+#navigation ul li:first-child{
+    margin-top: 0;
+}
+
+
+/* ------------------------------------------------------------- */
+
+
+#first{
+    padding-bottom: 30px;
+}
+
+#intro{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 50px;
+    background-image: url('../images/banner.jpg');
+    color: white;
+    font-weight: 400;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.intro_text{
+    width: 50%;
+    font-size: 24px;
+
+}
+
+#intro h1{
+    text-align: center;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0 100px 0 0;
+    color: white;
+}
+
+#info{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#info p{
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+#buttons{
+    text-align: center;
+}
+
+#buttons button{
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+
+#buttons button a{
+    margin: 0 15px 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+#buttons button p{
+    margin-left: 15px;
+    font-size: medium;
+}
+
+
+#buttons button:hover{
+    box-shadow: 0px 1px 2px 2px lightgray;
+}
+
+
+/* ----------------------------------------------------- */
+
+#second{
+    margin: 30px 0 30px 0;
+}
+
+#second-text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#repair_products div{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0;
+}
+#laptop{
+    background-color: #654321;
+}
+#desktop{
+    background-color: gray;
+}
+
+
+#aio{
+    overflow: hidden;
+    background-color: gainsboro;
+}
+#aio img{
+    margin-left: -50px;
+}
+
+#repair_products img{
+    -webkit-mask-image: linear-gradient(to left, transparent 5%, black 70%);
+    width: 50%;
+    opacity: 90%;
+}
+
+#repair_products p{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    font-size: xx-large;
+}
+
+#repair_products a{
+    text-decoration: none;
+}
+
+
+/* ---------------------------------------------------------------------------- */
+
+#third{
+    text-align: center;
+}
+
+.third-cont{
+    display: flex;
+}
+
+.third-image-fix img{
+    width: 100%;   
+}
+
+.third-image-apple img{
+    width: 100%;
+}
+
+.third-text{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#info_second p{
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+#buttons_second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttons_second button{
+    margin: 10px 30px 10px 30px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+
+#buttons_second button a{
+    margin: 0 15px 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+#buttons_second button p{
+    margin-left: 15px;
+    font-size: medium;
+}
+
+
+#buttons_second button:hover{
+    box-shadow: 0px 1px 2px 2px lightgray;
+}
+
+
+/* 
+----------------------------------------------------------------------------------------- */
+
+
+#footer_cont{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: darkslategray;
+    color: white;
+    height: 150px;
+    font-size: small;
+}
+
+#footer_cont ul{
+    text-align: center;
+}
+
+#footer_cont li{
+    display: inline;
+    list-style: none;
+    margin: 10px;
+}
+
+
+#footer_cont p{
+    text-align: center;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+}
+
+main{
+    padding-bottom: 200px;
+}
+
+
+
+
+/* ----------------------------------------------------------------- */
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #FFFFFF;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+
+/* ----------------------------------------------------------------- */
+
+
+
+
+
+@media only screen and (min-width:720px){
+    #hamburger{
+        display: none;
+    }
+
+    #desktop_nav{
+        display: flex;
+        margin-left: auto;
+    }
+
+    #desktop_nav ul{
+        display: flex;
+    }
+
+    #desktop_nav ul li{
+        list-style: none;
+        margin: 0 15px 0 15px;
+        color: white;
+    }
+
+    #desktop_nav ul li a{
+        text-decoration: none;
+        color: currentColor;
+    }
+
+    #desktop_nav ul li a:hover{
+        text-decoration: none;
+        font-weight: 600;
+        color: currentColor;
+    }
+
+
+    #repair_products p{
+        font-size: 50px;
+    }
+
+    #intro{
+        background-position: center;
+    }
+
+
+
+    #third-fix{
+        display: flex;
+        align-items: center;
+    }
+
+    .third-text-fix{
+        width: 60%;
+        margin: 50px;
+    }
+    .third-image-fix{
+        width: 40%;
+        margin-right: 50px;
+    }    
+    .third-image-apple img{
+        width: 80%;
+    }
+}
+
+
+@media only screen and (min-width:1280px){
+    main{
+        width: 1280px;
+        margin: auto;
+    }
+
+    #intro{
+        height: 35vh;
+    }
+
+    #repair_products{
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+
+
+    
+
+
+}
+
+.mouseHover{
+    transition: all .2s ease-in-out;
+}
+
+.mouseHover:hover{
+    transform: scale(1.05);
+    z-index: 0;
+}
